@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+#nav {
+  height: 90px;
+  /* background-color: tomato; */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding: 0 50px;
+  gap: 40px;
+}
+#nav h3 {
+  font-family: "montserrat";
+  font-size: 30px;
+  font-weight: 800;
+}
+#nav i {
+  color: #f3efef;
+  background-color: rgb(0, 0, 0);
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+#text-container {
+  /* height: 35%; */
+  width: 100%;
+  /* background-color: yellowgreen; */
+  padding: 0px 100px;
+}
+#text-container h1 {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 80px;
+}
+#center-in {
+  /* background-color: violet; */
+  height: 40%;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#center-in p {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 22px;
+}
+#right {
+  width: 20%;
+}
+.elem {
+  /* background-color: yellow; */
+  /* margin: 5px; */
+  padding: 20px 0;
+  border-top: 3px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.elem i {
+  font-size: 25px;
+  font-weight: 400;
+  opacity: 0;
+}
+.elem:hover i {
+  opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline;
+}
+.elem a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#bottom{
+   height: 30%;
+    background-color: red;
+    background-image:url(https://media.istockphoto.com/id/1349960077/photo/rocking-denim-wear.jpg?s=2048x2048&w=is&k=20&c=rVWDbh0IrVudw8ClffhWCB8Nxzq9DqFqlXCvaOZQ7Tk=) ;
+    background-size: cover;
+    background-position: 0 5%;
+}
